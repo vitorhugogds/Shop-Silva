@@ -1,0 +1,104 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+header{
+    width: 100%;
+    border: 100%;
+    background-color: gray;
+    padding: 35px 0px;
+}
+
+footer{
+    width: 100%;
+    border: 100%;
+    background-color: rgb(44, 44, 44);
+    padding: 35px 0px;
+    color: white;
+} 
+
+#cabecalho{
+    color: white;
+    display: flex;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#nome h1{
+    padding: 20px 0px;
+}
+
+#imagemLogin{
+    display: flex;
+    justify-content: space-around;
+    padding: 60px 0px;
+    margin: 60px;
+}
+
+
+#login input{
+    width: 500px;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+#login button{
+    background-color: black;
+    color: white;
+    width: 100px;
+    border-radius: 15px;
+    padding: 8px 0px;  
+}
+
+#botao{
+    display: flex;
+    justify-content: center;
+    padding: 15px 0px;
+}
+
+#botao a{
+    color: white;
+}
+
+hr{
+    height: 1px;
+    background-color: black;
+}
+
+#login a{
+    text-decoration: none;
+}
+
+#login h2{
+    text-align: center;
+}
+
+#login p{
+    padding: 10px 0px;
+}
+
+#login p a{
+    display: flex;
+    justify-content: center;
+}
+
+
+#redesSociais{
+    display: flex;
+    padding: 5px 0px;
+    margin: 10px;
+}
+
+#contatos{
+    padding: 10px;
+}
+
+#sobre{
+    margin: 20px;
+}
+
+#direitos{
+    text-align: center;
+}
