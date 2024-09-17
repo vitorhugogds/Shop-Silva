@@ -49,6 +49,10 @@ header{
     padding: 20px;
 }
 
+#banner img{
+    box-shadow: 0px 0px 15px black;
+}
+
 #produtos{
     text-align: center;
 }
@@ -61,18 +65,25 @@ header{
 
 #img1{
     padding: 10px;
+    box-shadow: 0px 0px 10px black;
+    margin: 0px 5px;
 }
 
 #img2{
     padding: 10px;
+    box-shadow: 0px 0px 10px black;
 }
 
 #img3{
     padding: 10px;
+    box-shadow: 0px 0px 10px black;
+    margin: 5px;
 }
 
 #img4{
     padding: 10px;
+    box-shadow: 0px 0px 10px black;
+    margin: 5px;
 }
 
 #img3e4{
@@ -80,6 +91,307 @@ header{
     flex-direction: column;
     padding: 10px;
 }
+
+
+#categorias{
+    margin: 0px 250px;
+}
+
+#categorias h1{
+    padding: 10px 45px;
+}
+
+
+#box-categorias{
+    display: flex;
+    flex-direction: column;
+}
+
+#box-categorias input{
+    width: 25px;
+}
+
+
+
+#categoria1{
+    display: flex;
+    padding: 10px 0px;
+}
+
+#categoria1 p{
+    padding: 5px;
+}
+
+
+
+#categoria2{
+    display: flex;
+    padding: 10px 0px;
+}
+
+#categoria2 p{
+    padding: 5px;
+}
+
+
+
+#categoria3{
+    display: flex;
+    padding: 10px 0px;
+}
+
+#categoria3 p{
+    padding: 5px;
+}
+
+
+
+#categoria4{
+    display: flex;
+    padding: 10px 0px;
+}
+
+#categoria4 p{
+    padding: 5px;
+}
+
+
+
+#categoria5{
+    display: flex;
+    padding: 10px 0px;
+}
+
+#categoria5 p{
+    padding: 5px;
+}
+
+
+
+#categoria6{
+    display: flex;
+    padding: 10px 0px;
+}
+
+#categoria6 p{
+    padding: 5px;
+}
+
+
+
+#categoria7{
+    display: flex;
+    padding: 10px 0px;
+}
+
+#categoria7 p{
+    padding: 5px;
+}
+
+
+
+#categoria8{
+    display: flex;
+    padding: 10px 0px;
+}
+
+#categoria8 p{
+    padding: 5px;
+}
+
+
+
+.vertical-line {
+    width: 1.6px;
+    height: 600px; 
+    background-color: black; 
+    margin: 0px 400px;
+    margin-top: -425px ;
+}
+
+
+
+#galeria{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0px 600px;
+}
+
+#galeria a{
+    text-decoration: none;
+    color: black;
+}
+
+#galeria1a4{
+    display: flex;
+    margin-top: -600px;
+    padding: 0px 660px;
+}
+
+#galeria5a8{
+    display: flex;
+    margin-top: -250px;
+    padding: 0px 660px;
+}
+
+#galeria-produto1{
+    padding: 0px 10px;
+}
+
+#galeria-produto2{
+    padding: 0px 10px;
+}
+
+#galeria-produto3{
+    padding: 0px 10px;
+}
+
+#galeria-produto4{
+    padding: 0px 10px;
+}
+
+#galeria-produto5{
+    padding: 0px 10px;
+}
+
+#galeria-produto6{
+    padding: 0px 10px;
+}
+
+#galeria-produto7{
+    padding: 0px 10px;
+}
+
+
+#galeria-produto8{
+    padding: 0px 10px;
+}
+
+#galeria p{
+    padding: 5px 0px;
+}
+
+#galeria h2{
+    padding: 5px 0px;
+}
+
+
+#explore{
+    display:flex;
+    justify-content: center;
+    padding: 65px;
+}
+
+
+#servicos{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+#pagamento{
+    background-color: rgb(197, 197, 197);
+    padding: 20px;
+    width: 200px;
+    height: 250px;
+    margin: 0px 10px;
+}
+
+#pagamento a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+#pagamento h3{
+    padding: 10px;
+}
+
+
+
+#suporte{
+    background-color: rgb(197, 197, 197);
+    padding: 20px;
+    width: 200px;
+    height: 250px;
+    margin: 0px 10px;
+}
+
+#suporte a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+#suporte h3{
+    padding: 10px;
+}
+
+
+
+#reembolso{
+    background-color: rgb(197, 197, 197);
+    padding: 20px;
+    width: 200px;
+    height: 250px;
+    margin: 0px 10px;
+}
+
+#reembolso a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+#reembolso h3{
+    padding: 10px;
+}
+
+
+
+#frete{
+    background-color: rgb(197, 197, 197);
+    padding: 20px;
+    width: 200px;
+    height: 250px;
+    margin: 0px 10px;
+}
+
+#frete a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+#frete h3{
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -93,18 +405,6 @@ footer{
     padding: 35px 0px;
     color: white;
 } 
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 #redesSociais{
