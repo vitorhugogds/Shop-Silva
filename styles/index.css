@@ -49,38 +49,19 @@ header{
     color: white;
 }
 
-.galery{
-    padding: 50px;
-    width: 60%;
-    height: 200px;
-    position: relative;
-    display: flex;
-    margin-right: auto;
-    margin-left: auto;
-    overflow: auto;
-    scroll-snap-type: x mandatory;
+
+.carousel-item {
+    height: 400px; 
+    margin: 80px 0px;
 }
 
-.galery img{
+.carousel-item img {
     width: 100%;
-    height: 100%;
-    position: sticky;
-    left: 0;
-    flex-shrink: 0;
-    object-fit: cover;
-    scroll-behavior: smooth;
+    height: 100%; 
+    object-fit: cover; 
+    object-position: center;
 }
 
-#banner{
-    height: auto;
-    display: flex;
-    justify-content: center;
-    padding: 20px;
-}
-
-#banner img{
-    box-shadow: 0px 0px 15px black;
-}
 
 #produtos{
     text-align: center;
@@ -121,19 +102,23 @@ header{
     padding: 10px;
 }
 
+#categoria-galeria{
+    display: flex;
+}
 
 #categorias{
-    margin: 0px 250px;
+    margin: 0px 200px;
 }
 
 #categorias h1{
-    padding: 10px 45px;
+    padding: 5px 10px;
 }
 
 
 #box-categorias{
     display: flex;
     flex-direction: column;
+    width: 290px;
 }
 
 #box-categorias input{
@@ -232,10 +217,10 @@ header{
 
 .vertical-line {
     width: 1.6px;
-    height: 600px; 
+    height: 800px; 
     background-color: black; 
-    margin: 0px 400px;
-    margin-top: -425px ;
+    margin: 0px 420px;
+    margin-top: -655px ;
 }
 
 
@@ -243,7 +228,6 @@ header{
 #galeria{
     display: flex;
     flex-wrap: wrap;
-    margin-top: 0px 600px;
 }
 
 #galeria a{
@@ -253,47 +237,45 @@ header{
 
 #galeria1a4{
     display: flex;
-    margin-top: -600px;
-    padding: 0px 660px;
+    justify-content: center;
 }
 
 #galeria5a8{
     display: flex;
-    margin-top: -250px;
-    padding: 0px 660px;
 }
 
 #galeria-produto1{
-    padding: 0px 10px;
+    padding: 0px 15px;
 }
 
 #galeria-produto2{
-    padding: 0px 10px;
+    padding: 0px 15px;
 }
 
 #galeria-produto3{
-    padding: 0px 10px;
+    padding: 0px 15px;
 }
 
 #galeria-produto4{
-    padding: 0px 10px;
+    padding: 0px 15px;
 }
 
 #galeria-produto5{
-    padding: 0px 10px;
+    padding: 0px 15px;
 }
 
 #galeria-produto6{
-    padding: 0px 10px;
+    padding: 0px 15px;
 }
 
+
 #galeria-produto7{
-    padding: 0px 10px;
+    padding: 0px 15px;
 }
 
 
 #galeria-produto8{
-    padding: 0px 10px;
+    padding: 0px 15px;
 }
 
 #galeria p{
@@ -303,6 +285,8 @@ header{
 #galeria h2{
     padding: 5px 0px;
 }
+
+
 
 
 #explore{
@@ -316,13 +300,14 @@ header{
     display: flex;
     justify-content: center;
     margin: 20px;
+    height: 300px;
 }
 
 #pagamento{
     background-color: rgb(197, 197, 197);
     padding: 20px;
     width: 200px;
-    height: 250px;
+    height: 300px;
     margin: 0px 10px;
 }
 
@@ -344,7 +329,7 @@ header{
     background-color: rgb(197, 197, 197);
     padding: 20px;
     width: 200px;
-    height: 250px;
+    height: 300px;
     margin: 0px 10px;
 }
 
@@ -366,7 +351,7 @@ header{
     background-color: rgb(197, 197, 197);
     padding: 20px;
     width: 200px;
-    height: 250px;
+    height: 300px;
     margin: 0px 10px;
 }
 
@@ -388,7 +373,7 @@ header{
     background-color: rgb(197, 197, 197);
     padding: 20px;
     width: 200px;
-    height: 250px;
+    height: 300px;
     margin: 0px 10px;
 }
 
