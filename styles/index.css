@@ -1,6 +1,7 @@
 *{
     margin: 0%;
     padding: 0%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 header, main, footer{
@@ -20,6 +21,12 @@ header{
     width: 100%;
     display: flex;
     justify-content:space-between;
+}
+
+#cabecalho a{
+    text-decoration: none;
+    display: flex;
+    color: white;
 }
 
 #img{
@@ -374,26 +381,6 @@ header{
 #frete h3{
     padding: 10px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

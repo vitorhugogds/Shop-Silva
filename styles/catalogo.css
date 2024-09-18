@@ -1,0 +1,205 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header, main, footer{
+    width: 100%;
+}
+
+header{
+    width: 100%;
+    border: 100%;
+    background-color: gray;
+    padding: 35px 0px;
+}
+
+
+#cabecalho{
+    color: white;
+    display: flex;
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+}
+
+#cabecalho a{
+    text-decoration: none;
+    display: flex;
+    color: white;
+}
+
+#img{
+    display: flex;
+}
+
+#nome{
+    padding: 25px 0px;
+}
+
+#cadastro{
+    padding: 0px 20px;  
+    display: flex;
+    height: auto;
+    align-items: center;
+}
+
+#cadastro a{
+    text-decoration: none;
+    color: white;
+}
+
+
+#produto{
+    display: flex;
+}
+
+#produto img{
+    padding: 20px;
+}
+
+#descricao{
+    padding: 80px 0px;
+}
+
+#descricao h1, h3{
+    padding: 8px 0px;
+}
+
+#preco{
+    display: flex;
+    margin: 0px 550px;
+    margin-top: -25px;
+}
+
+#comprar{
+    display: flex;
+    margin: 0px 1700px;
+    margin-top: -35px;
+    width: 300px;
+}
+
+#comprar button{
+    height: 40px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+}
+
+.horizontal-line {
+    width: 1300px;
+    height: 1.6px;
+    background-color: black; 
+    margin: 30px 0px;
+    margin-left: 550px; 
+    margin-top: -60px;
+}
+
+
+#recomendacao{
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+
+}
+
+#galeria{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#galeria a{
+    text-decoration: none;
+    color: black;
+}
+
+#galeria1a4{
+    display: flex;
+    padding: 0px 600px;
+}
+
+#galeria5a8{
+    display: flex;
+    padding: 0px 600px;
+}
+
+#galeria-produto1{
+    padding: 40px 20px;
+}
+
+#galeria-produto2{
+    padding: 40px 20px;
+}
+
+#galeria-produto3{
+    padding: 40px 20px;
+}
+
+#galeria-produto4{
+    padding: 40px 20px;
+}
+
+#galeria-produto5{
+    padding: 40px 20px;
+}
+
+#galeria-produto6{
+    padding: 40px 20px;
+}
+
+#galeria-produto7{
+    padding: 40px 20px;
+}
+
+#galeria-produto8{
+    padding: 40px 20px;
+}
+
+#galeria p{
+    padding: 5px 0px;
+}
+
+#galeria h2{
+    padding: 5px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+/* RODAPÉ */
+
+footer{
+    width: 100%;
+    border: 100%;
+    background-color: rgb(44, 44, 44);
+    padding: 35px 0px;
+    color: white;
+} 
+
+
+#redesSociais{
+    display: flex;
+    padding: 5px 0px;
+    margin: 10px;
+}
+
+#contatos{
+    padding: 10px;
+}
+
+#sobre{
+    margin: 20px;
+}
+
+#direitos{
+    text-align: center;
+}
